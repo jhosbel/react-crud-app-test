@@ -1,0 +1,127 @@
+/*-------------------APP general----------------------*/
+.App {
+  align-items: center;
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+/*-----------------------NAVBAR------------------------*/
+.Navbar {
+  background-color: #6B8AF3;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  padding: 25px;
+  border: solid;
+}
+
+.left {
+  text-decoration: dashed;
+  color: #203EA4;
+  font-size: 25px;
+  border: solid;
+  background-color: black;
+  padding: 5px;
+  border-radius: 5px;
+}
+.left:hover {
+  background-color: white;
+  color: black;
+  transition: .5s;
+}
+/*-------------------------------CONTAINER MAIN------------------------------*/
+.Container {
+  display: flex;
+  justify-content: space-between;
+  background-image: linear-gradient(#FC7C3A
+  , #FB3536);
+}
+
+.Container > div {
+  margin-top: 6%;
+}
+
+/*--------------------------TASKS------------------------------------------*/
+.tasksContainer {
+  width: 70%;
+}
+
+.tasks {
+  margin: 5px;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 5px 10px 8px #FB3536;
+}
+
+.tasks hr {
+  border: 3px solid #FC7C3A;
+  border-radius: 5px;
+  width: 30%;
+}
+
+.btn-container {
+  display: flex;
+  justify-content:space-around;
+}
+
+.btn {
+  width: 15%;
+  background-image: linear-gradient(#FC7C3A, #FB3536);
+  color: white;
+  border-radius: 2em / 2em;
+  padding: 15px;
+}
+.btn:hover {
+  cursor: pointer;
+  box-shadow: 3px 5px black;
+  transition: .3s;
+  color: black;
+}
+
+.tasks h3 {
+  text-align: justify;
+  padding: 0 30px 0 30px;
+}
+
+/*----------------------USER TASKS-----------------------*/
+.user {
+  margin-left: 20px;
+}
+
+.user input {
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
+}
+
+.user textarea {
+  font-weight: bold;
+}
+
+/*----------------------TASKS EDIT-----------------------*/
+
+.tasksEdit {
+  background-image: linear-gradient(#FC7C3A
+  , #FB3536);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tasksEdit form {
+  border: #FB3536 solid;
+  box-shadow: 5px 10px 8px #FB3536;
+  margin: 0px 25% 0px 25%;
+  padding-bottom: 5%;
+  border-radius: 5%;
+}
